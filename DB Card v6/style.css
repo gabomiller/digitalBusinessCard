@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    background: #23252C;
+}
+
+.header {
+    height: 75px;
+}
+
+.components {
+    display: flex;
+    flex-direction: column;
+    margin-left: 116px;
+    margin-right: 117px;
+    border-radius: 10px 10px 10px 10px;
+    background: #F5F5F5;
+    
+}
+
+.pic {
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.name {
+    color: #2B283A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.role {
+    color: #F47D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+
+.website {
+    color: #4A4E74;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+    margin-top: 7px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.email--button {
+    display: flex;
+    width: 115px;
+    margin-left: 35px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.email--label {
+    color: var(--gray-700, #374151);
+    /* text-sm/leading-4/font-medium */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+}
+
+.linkedin--button {
+    display: flex;
+    width: 115px;
+    margin-right: 35px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #297FE5;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.linkedin--label {
+    color: #FFF;
+    /* text-sm/leading-4/font-medium */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+}
+
+.about--title, .interests--title {
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    margin-bottom: 0px;
+}
+
+.about--div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-right: 35px;    
+}
+
+.about--p, .interests--p {
+    color: #4A4E74;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+    margin-top: 5px;
+}
+
+.interests--div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+}
+
+.footer--div {
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+    background: burlywood; 
+    justify-content: center;
+    align-content: space-between;
+    gap: 24px;
+    padding: 20px;
+}
+
+.extrafooter {
+    height: 75px;
+}
+
+
